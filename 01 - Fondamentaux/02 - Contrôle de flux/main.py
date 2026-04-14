@@ -59,3 +59,48 @@ match dayOfWeek :
         print("Autre jour")
     case _ :                    ## Le caractère _ est un joker (wildcard), équivalent au default.
         print("Jour invalide")
+
+###############################################################################################################################
+
+# Structures itératives
+## BOUCLES WHILE
+## Les boucles while sont des structures de contrôle utilisées pour répéter un bloc de code tant qu'une condition est vraie.
+
+## La boucle while
+compteur = 0
+while compteur < 10 :
+    print(compteur)
+    compteur += 1
+
+## Test de condition : La condition est vérifiée "avant" chaque itération du bloc de code.
+## Exécution : Si la condition est fausse dès le départ, le bloc de code ne sera jamais exécuté.
+
+## Simuler une boucle do while
+compteur = 0
+while True :
+    print(compteur)
+    compteur += 1
+    if compteur >= 10:
+        break
+
+## Test de condition : La condition est vérifiée "après" chaque itération du bloc de code.
+## Exécution : Si la condition est fausse dès le départ, le bloc de code sera exécuté 1 fois.
+
+###############################################################################################################################
+
+## BOUCLES FOR
+## En Python, la boucle for sert à parcourir une séquence (liste, chaîne de caractères, plage de nombres…).
+mot = "Python"
+for lettre in mot : 
+    print(lettre)
+
+for compteur in range(10): # de 0 à 9
+    print(compteur)
+
+###############################################################################################################################
+
+
+
+
+
+
