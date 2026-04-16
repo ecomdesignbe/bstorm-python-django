@@ -1,3 +1,9 @@
+# Base du langage
+# 1. Type primitifs : entier, flottants, booléens
+# 2. Chaînes de caractères & opérations de base
+# 3. Opérateurs : arithmétiques, de comparaison,...
+# 4. Conversion de types
+
 # Type primitifs : entier, flottants, booléens
 ## INT > Un entier est un nombre sans virgule : positif, négatif ou nul.
 age = 12
