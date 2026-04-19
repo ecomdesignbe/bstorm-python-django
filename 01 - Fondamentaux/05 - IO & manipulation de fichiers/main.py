@@ -16,7 +16,7 @@ with open("fichier.txt", "r", encoding="utf-8") as f:
 ## Fichier : Ecrire
 ## Il est également possible d’écrire un fichier en passant par la même fonction via le mode write.
 with open("fichier.txt", "w", encoding="utf-8") as f:
-    f.write("Bonojour à tous !")
+    f.write("Bonjour à tous !")
 
 ## Fichier : Modifier
 ## Nous pouvons aussi via add, ajouter une ligne à un fichier existant.

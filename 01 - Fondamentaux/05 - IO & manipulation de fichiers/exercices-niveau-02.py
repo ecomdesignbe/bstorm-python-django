@@ -1,0 +1,17 @@
+# Faites de même avec un fichier de type csv.
+# Ps: Importer la libraire CSV.
+# Passer par la création d’un reader et une boucle FOR pour lire le contenu d’un fichier
+# Passer par la création d’un writer et la méthode writerow() pour écrire une ligne dans un fichier
+import csv
+
+with open(r"01 - Fondamentaux\05 - IO & manipulation de fichiers\personne.csv", "w", newline="") as fichier:
+    writer = csv.writer(fichier)
+    writer.writerow(["nom", "age", "ville"])
+    writer.writerow(["Steve", "46", "Bruxelles"])
+    writer.writerow(["Nathanaël", "5", "In the sky"])
+
+with open(r"01 - Fondamentaux\05 - IO & manipulation de fichiers\personne.csv", "r") as fichier:
+    reader = csv.reader(fichier)
+
+    for ligne in reader:
+        print(ligne)
