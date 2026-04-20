@@ -1,0 +1,17 @@
+[
+    {
+        "titre": "1984",
+        "auteur": "George Orwell",
+        "disponible": true
+    },
+    {
+        "titre": "Le Petit Prince",
+        "auteur": "Antoine de Saint-Exupery",
+        "disponible": true
+    },
+    {
+        "titre": "L'etranger",
+        "auteur": "Albert Camus",
+        "disponible": false
+    }
+]
